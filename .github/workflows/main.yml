@@ -27,5 +27,5 @@ jobs:
         echo "Doing something with $SECRET"
       - name: "my_first_secret"
         run: |
-        # Use the secret securely within this step
+        # Use the secret securely within this step out
         echo "Doing something with ${{ steps.fetch-secrets.outputs.my_first_secret}}"
